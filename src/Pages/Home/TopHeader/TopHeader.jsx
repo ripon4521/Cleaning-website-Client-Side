@@ -10,25 +10,25 @@ const TopHeader = () => {
         // Add other styles as needed
       };
     return (
-       <div style={gradientStyle} className='p-4'>
-         <div  className=' font-semibold flex gap-5 mr-56 font-popins justify-end items-center '>
-           
-           <FaFacebook></FaFacebook>
-           <FaWhatsapp></FaWhatsapp>
+       <div style={gradientStyle} className='p-4 mt-10 md:mt-0'>
+         <div  className=' font-semibold gap-3  flex md:gap-5 lg:mr-56 font-popins justify-end items-center '>
+       
+           <FaFacebook className='text-xl hidden lg:block '></FaFacebook>
+           <FaWhatsapp className='text-xl hidden lg:block '></FaWhatsapp>
            <div className='flex gap-2 justify-center items-center'>
-           <IoTimeOutline />
+           <IoTimeOutline className='text-xs md:text-2xl' />
 
             <h1>24/7 Hours</h1>
            </div>
 
-           <div className='flex gap-2 justify-center items-center'>
-            <FaPhone></FaPhone>
-            <h1>01788829796</h1>
+           <div className='flex gap-0 md:gap-2 justify-center items-center'>
+            <FaPhone className=' text-xs md:text-xl'></FaPhone>
+            <h1>88829796</h1>
            </div>
 
-           <div className='flex gap-2 justify-center items-center'>
-           <CiMail></CiMail>
-           <h1>riponakiondo4521@gmail.com</h1>
+           <div className='flex gap-0 md:gap-2 justify-center items-center'>
+           <CiMail className='text-xs md:text-2xl'></CiMail>
+           <h1>xyz@gmail.com</h1>
            </div>
          
         
