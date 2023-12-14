@@ -43,10 +43,10 @@ const Navbar = () => {
   <div className="navbar-center hidden md:flex">
     <ul className="menu menu-horizontal px-1">
       <NavLink><li><a>Home</a></li></NavLink>
-      <li>
+      <li className=''>
         <details>
           <summary>Service</summary>
-          <ul className="w-[200px] ">
+          <ul className="w-[200px] z-40 bg-white ">
             <NavLink><li><a className='font-semibold  '>Bathtub Reglazing</a></li></NavLink>
             <NavLink><li><a className='font-semibold  '>Bathtub Refinishing</a></li></NavLink>
           <NavLink>  <li><a className='font-semibold  '>Bathtub Chip Repair</a></li></NavLink>
