@@ -6,7 +6,7 @@ const ManBanner = () => {
     return (
         <div>
             <img className=' hidden md:block  md:mr-80 absolute' src={Sky} alt="" />
-            <img className='md:relative w-[300px] md:w-[634px] h-[350px] md:h-[700px] z-10 ml-16 md:ml-0 md:mt-44' src={hero} alt="" />
+            <img className='md:relative w-[300px] md:w-[634px] h-[350px] md:h-[700px]  ml-16 md:ml-0 md:mt-44' src={hero} alt="" />
 
             <div className=' hidden lg:block absolute top-[25rem] right-24 w-[280px] rounded-md bg-gradient-to-br px-5 py-2 from-white via-blue-100 to-blue-200'>
             <div className='flex justify-between items-center  '>

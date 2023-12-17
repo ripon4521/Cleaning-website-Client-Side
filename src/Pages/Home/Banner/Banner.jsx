@@ -40,7 +40,7 @@ service in Toronto</h1>
       <div className="md:w-full  -mt-60 md:-mt-0  bg-center bg-cover h-[20rem] md:h-[45rem]" style={{ backgroundImage: ` url(${banner})`   }}>
         <div className="md:flex hidden  flex-col md:flex-col lg:flex-row h-[35rem] items-center md:justify-between container mx-auto md:px-20 ">
           <div className="text-left ">
-            <h1 className="text-2xl mt-10 font-jost text-[#0A85EA]  lg:text-4xl">
+            <h1 className="text-2xl mt-10 md:mt-32 lg:mt-0 font-jost text-[#0A85EA]  lg:text-4xl">
             Transform Your Bathroom with
             </h1 >
             <h1 className='text-4xl md:text-6xl bg-gradient-to-r from-blue-500 via-blue-700 to-cyan-500 text-transparent bg-clip-text font-jost font-semibold mt-2'>Best Bathtub Reglazing 
