@@ -1,4 +1,5 @@
 import Banner from "../Banner/Banner";
+import Gallery from "../Gallery/Gallery";
 import Grantee from "../Grantee/Grantee";
 import Navbar from "../Navbar/Navbar";
 import TopHeader from "../TopHeader/TopHeader";
@@ -13,6 +14,7 @@ const Home = () => {
             <Banner></Banner>
             <Grantee></Grantee>
             <TrustUs></TrustUs>
+            <Gallery></Gallery>
         </div>
     );
 };
