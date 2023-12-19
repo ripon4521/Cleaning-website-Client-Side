@@ -6,7 +6,8 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 import Line from "../../../../public/Gallery/Line.png";
-import'./testimonils.css'
+import './testimonils.css'
+import TestimonailsCard from "./TestimonailsCard";
 
 const Testimonials = () => {
     
@@ -18,7 +19,7 @@ const Testimonials = () => {
         slidesToScroll: 1,
         initialSlide: 0,
         swipeToSlide: true,
-          
+        
         responsive: [
           {
             breakpoint: 1024,
@@ -59,38 +60,30 @@ const Testimonials = () => {
         </h2>
         <img src={Line} className="mx-auto" alt="" />
       </div>
-     <div className="container mx-auto mt-20 ">
+     <div className="lg:w-[1450px] mx-auto w-[330px] md:w-[700px] mt-20 ">
      <Slider {...settings}>
         <div>
-          <h3>
-            <img src={img1} alt="" />
-          </h3>
+         <TestimonailsCard></TestimonailsCard>
         </div>
         <div>
-          <h3>
-            <img src={img1} alt="" />
-          </h3>
+         <TestimonailsCard></TestimonailsCard>
         </div>
         <div>
-          <h3>
-            <img src={img1} alt="" />
-          </h3>
+         <TestimonailsCard></TestimonailsCard>
         </div>
         <div>
-          <h3>
-            <img src={img1} alt="" />
-          </h3>
+         <TestimonailsCard></TestimonailsCard>
         </div>
         <div>
-          <h3>
-            <img src={img1} alt="" />
-          </h3>
+         <TestimonailsCard></TestimonailsCard>
         </div>
         <div>
-          <h3>
-            <img src={img1} alt="" />
-          </h3>
+         <TestimonailsCard></TestimonailsCard>
         </div>
+        <div>
+         <TestimonailsCard></TestimonailsCard>
+        </div>
+   
       </Slider>
      </div>
     </div>
