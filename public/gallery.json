@@ -1,35 +1,32 @@
 [
-    {
-      "date": "2023-01-01",
-      "image": "https://i.ibb.co/bB8c1bD/img1.png"
-    },
-    {
-      "date": "2023-02-15",
-      "image": "https://i.ibb.co/bB8c1bD/img1.png"
-    },
-    {
-      "date": "2023-03-20",
-      "image": "https://i.ibb.co/bB8c1bD/img1.png"
-    },
-    {
-      "date": "2023-04-10",
-      "image": "https://i.ibb.co/bB8c1bD/img1.png"
-    },
-    {
-      "date": "2023-05-05",
-      "image": "https://i.ibb.co/bB8c1bD/img1.png"
-    },
-    {
-      "date": "2023-06-18",
-      "image": "https://i.ibb.co/bB8c1bD/img1.png"
-    },
-    {
-      "date": "2023-07-23",
-      "image": "https://i.ibb.co/bB8c1bD/img1.png"
-    },
-    {
-      "date": "2023-08-30",
-      "image": "https://i.ibb.co/bB8c1bD/img1.png"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/2vcS6Nz/Component-3.png",
+    "name": "Bathtub Reglazing",
+    "description": "Say goodbye to stains, scratches, and dullness – with our reglazing service, you can enjoy a beautiful, rejuvenated bathtub in no time. Our skilled technicians will meticulously prepare the surface, repair imperfections, and apply a high-quality, durable coating to make your bathtub look as good as new."
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/njMCxYq/Component-3.png",
+    "name": "Bathtub Chip Repair",
+    "description": "Chips and cracks on your bathtub or tiles can be unsightly and compromise the overall appearance of your bathroom. Our chip repair service is designed to seamlessly repair those damaged areas, restoring the original beauty of your fixtures.    "
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/Hd7cfzj/Component-3-1.png",
+    "name": "Tiles Reglazing",
+    "description": "Our tiles reglazing service is the perfect solution to give your tiles a stunning makeover. Whether it’s the walls, floors, or countertops, our skilled team will meticulously clean, repair, and reglaze your tiles, creating a fresh, vibrant, and like-new appearance. With a wide range of colour and finish options."
+  },
+  {
+    "id": 4,
+    "image": "Shower Refinishing",
+    "name": "https://i.ibb.co/6t1Cv41/Component-3-2.png",
+    "description": "Our shower refinishing service can transform your worn-out shower into a beautiful oasis. Our skilled team will repair any cracks, chips, or scratches and apply a fresh, waterproof coating to protect your shower and give it a renewed look."
+  },
+  {
+    "id": 4,
+    "image": "Shower Refinishing",
+    "name": "https://i.ibb.co/6t1Cv41/Component-3-2.png",
+    "description": "Our shower refinishing service can transform your worn-out shower into a beautiful oasis. Our skilled team will repair any cracks, chips, or scratches and apply a fresh, waterproof coating to protect your shower and give it a renewed look."
+  }
+]
