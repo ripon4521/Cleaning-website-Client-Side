@@ -1,4 +1,5 @@
 import Banner from "../Banner/Banner";
+import Cards from "../Card/Cards";
 import Gallery from "../Gallery/Gallery";
 import Grantee from "../Grantee/Grantee";
 import Navbar from "../Navbar/Navbar";
@@ -17,6 +18,7 @@ const Home = () => {
             <TrustUs></TrustUs>
             <Gallery></Gallery>
             <Renul></Renul>
+            <Cards></Cards>
         </div>
     );
 };

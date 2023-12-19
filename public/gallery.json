@@ -17,16 +17,11 @@
     "name": "Tiles Reglazing",
     "description": "Our tiles reglazing service is the perfect solution to give your tiles a stunning makeover. Whether it’s the walls, floors, or countertops, our skilled team will meticulously clean, repair, and reglaze your tiles, creating a fresh, vibrant, and like-new appearance. With a wide range of colour and finish options."
   },
+  
   {
     "id": 4,
-    "image": "Shower Refinishing",
-    "name": "https://i.ibb.co/6t1Cv41/Component-3-2.png",
-    "description": "Our shower refinishing service can transform your worn-out shower into a beautiful oasis. Our skilled team will repair any cracks, chips, or scratches and apply a fresh, waterproof coating to protect your shower and give it a renewed look."
-  },
-  {
-    "id": 4,
-    "image": "Shower Refinishing",
-    "name": "https://i.ibb.co/6t1Cv41/Component-3-2.png",
+    "image": "https://i.ibb.co/6t1Cv41/Component-3-2.png",
+    "name": "Shower Refinishing ",
     "description": "Our shower refinishing service can transform your worn-out shower into a beautiful oasis. Our skilled team will repair any cracks, chips, or scratches and apply a fresh, waterproof coating to protect your shower and give it a renewed look."
   }
 ]
