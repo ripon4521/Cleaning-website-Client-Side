@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Card from "./Card";
+import Renul from "../RenaulSection/Renul";
 
 
 const Cards = () => {
@@ -17,7 +18,7 @@ const Cards = () => {
       };
     
     return (
-        <div className="my-20" >
+        <div className="mt-20" >
         <h1 className="mt-20 text-5xl font-jost  text-[#2082D3] font-semibold text-center">Discover the Beauty of Restoration and explore
 <br />our services today!</h1>
 <div className="lg:h-[600px] md:h-[1000px] h-[1900px]" style={gradientStyle}>
@@ -27,6 +28,9 @@ const Cards = () => {
                 data?.map(item=><Card key={item.id} item={item}></Card>)
             }
         </div>
+</div>
+<div className="-mt-20 hidden md:hidden lg:block">
+<Renul></Renul>
 </div>
             
         </div>
