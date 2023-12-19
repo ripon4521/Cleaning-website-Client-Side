@@ -5,7 +5,7 @@ import img3 from '../../../../public/mOCKUP/shower-389260_640 1.png';
 const Mokup1 = () => {
     return (
      <div>
-           <div className='flex container mx-auto mt-32 gap-10'>
+           <div className='flex flex-col lg:flex-row p-2 container mx-auto mt-32 gap-10'>
             <img src={img2} alt="" />
             <div>
                 <h1 className='text-2xl font-popins font-semibold text-[#095090]'>RBathtub Reglazing: Where Beauty Meets Cost-effective Brilliance!</h1>
@@ -17,7 +17,7 @@ Revitalize your Toronto bathroom today! Contact us to discover how our Bathtub R
             </div>
         </div>
 
-        <div className='flex container flex-row-reverse mt-20 mx-auto gap-10'>
+        <div className='flex flex-col container p-2 lg:flex-row-reverse mt-20 mx-auto gap-10'>
             <img className='' src={img1} alt="" />
             <div>
                 <h1 className='text-2xl font-popins font-semibold text-[#095090]'>Refresh Your Toronto Bathroom with Our Exquisite Bathtub Reglazing and Refinishing Services!</h1>
@@ -27,7 +27,7 @@ Our skilled artisans specialize in reviving tired tubs, delivering a finish that
             </div>
         </div>
 
-        <div className='flex container  mt-20 mx-auto gap-10'>
+        <div className='flex flex-col lg:flex-row p-2 container  mt-20 mx-auto gap-10'>
             <img className='' src={img2} alt="" />
             <div>
                 <h1 className='text-2xl font-popins font-semibold text-[#095090]'>Transform Your Bath with Sustainable, Quality Bathtub Reglazing!</h1>
@@ -39,8 +39,8 @@ Don't wait – contact us today to schedule your Toronto bathtub refinishing and
             </div>
         </div>
 
-        <div className='flex container flex-row-reverse  mt-20 mx-auto gap-10'>
-            <img className='-mt-40' src={img3} alt="" />
+        <div className='flex flex-col p-2 container lg:flex-row-reverse  mt-20 mx-auto gap-10'>
+            <img className='lg:-mt-40' src={img3} alt="" />
             <div>
                 <h1 className='text-2xl font-popins font-semibold text-[#095090]'>Bathtub Reglazing: Where Beauty Meets Cost-effective Brilliance</h1>
             <p className='font-popins mt-3'>Finding eco-friendly solutions for home improvement projects is essential in a world where sustainability is paramount. Enter bathtub reglazing, a process that revitalizes your bathroom and champions environmental conservation.
