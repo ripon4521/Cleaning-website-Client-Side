@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaWhatsapp, FaYoutube }
 import logo from '../../../../public/Logo/Link → lAsset-6.png.png'
 const FooterContent = () => {
     return (
-        <div className='my-20 container mx-auto flex flex-col md:flex-row justify-start lg:gap-20 gap-10 pl-5 md:p-3 lg:pl-0 md:gap-8'>
+        <div className='my-20 container mx-auto flex flex-col-reverse md:flex-row justify-start lg:gap-20 gap-10 pl-5 md:p-3 lg:pl-0 md:gap-8'>
             <div>
         <img src={logo} alt="" />
         <p className='font-popins font-semibold'>Revitalize your bathtub in Toronto, Hamilton,<br />
@@ -34,7 +34,7 @@ reglazing services.</p>
              </ul>
              
             </div>
-            <div className='flex md:flex-col lg:flex-row flex-row text-3xl text-white gap-5'>
+            <div className='flex md:flex-col lg:flex-row flex-row text-3xl md:text-white text-black gap-5'>
                 <p><FaFacebook></FaFacebook></p>
                 <p><FaInstagram></FaInstagram></p>
                 <p><FaLinkedin></FaLinkedin></p>
