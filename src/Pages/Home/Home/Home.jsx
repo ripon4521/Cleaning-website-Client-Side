@@ -1,5 +1,6 @@
 import Banner from "../Banner/Banner";
 import Cards from "../Card/Cards";
+import Footer from "../Footer/Footer";
 import Gallery from "../Gallery/Gallery";
 import Grantee from "../Grantee/Grantee";
 import Mokup1 from "../MockupSection/Mokup1";
@@ -25,6 +26,7 @@ const Home = () => {
             <Mokup1></Mokup1>
             <WhyChoseUs></WhyChoseUs>
             <Testimonials></Testimonials>
+            <Footer></Footer>
         </div>
     );
 };
